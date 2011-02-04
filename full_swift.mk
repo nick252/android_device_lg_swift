@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/lg/swift/overlay
     
 PRODUCT_PACKAGES += \
     librs_jni \ 
-    VoiceDialer \
+    FileManager \
     LiveWallpapers \
     LiveWallpapersPicker \
     MagicSmokeWallpapers \
