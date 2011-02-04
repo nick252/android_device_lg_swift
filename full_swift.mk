@@ -23,6 +23,7 @@ include frameworks/base/data/sounds/AudioPackage4.mk
 DEVICE_PACKAGE_OVERLAYS += device/lg/swift/overlay
     
 PRODUCT_PACKAGES += \
+    librs_jni \ 
     VoiceDialer \
     LiveWallpapers \
     LiveWallpapersPicker \
