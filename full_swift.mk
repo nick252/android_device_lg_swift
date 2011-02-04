@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     Launcher2 \
     CMParts \
     CMPartsHelper \
-    CMWallpapers \
     DSPManager \
     Provision \
     GoogleSearch \
@@ -82,9 +81,7 @@ persist.cust.tel.eons=1
 
 
 
-# Enable Compcache by default on D/S
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.compcache.default=1
+
 
 # density in DPI of the LCD of this board. This is used to scale the UI
 # appropriately. If this property is not defined, the default value is 160 dpi. 
